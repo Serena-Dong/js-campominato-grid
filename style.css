@@ -27,8 +27,7 @@ body{
 #grid{
     width: 500px;
     height: 500px;
-    margin: 60px auto;
-    margin-top: 100px;
+    margin: 100px auto;
     border: 2px white solid;
 }
 
