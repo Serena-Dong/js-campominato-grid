@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,57 @@
 }
 body{
     font-family: sans-serif;
-    background-color: rgba(0, 0, 0, 0.835);
-    color: white;
+    background-color: turquoise;
+    color: black;
 }
 
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 80px;
+}
+
+/* GRID */
+#grid{
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    margin-top: 100px;
+    border: 2px white solid;
+}
+
+/* STRUCTURE */
+header{
+    height: 100px;
+    background-color: white;
+}
+main{
+    height: 600px;
+    background-color: turquoise;
+}
+footer{
+    height: 80px;
+    background-color: white;
+}
+
+/* SPECIFIC STUFF*/
+#logo, #title, p{
+    margin-left: 30px;
+}
+
+#btn-play{
+    padding: 5px 30px;
+    margin: 30px;
+    border-radius: 5px
+}
+
+footer p{
+    font-size: 20px;
+}
