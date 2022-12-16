@@ -28,7 +28,6 @@ body{
     width: 500px;
     height: 500px;
     margin: 100px auto;
-    border: 2px white solid;
 
     display: flex;
     flex-wrap: wrap;
@@ -39,6 +38,13 @@ body{
     height: calc(100% / 10);
     border: white 2px solid;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid .cell.clicked{
+    background-color: cyan;
 }
 
 /* STRUCTURE */
@@ -47,8 +53,9 @@ header{
     background-color: white;
 }
 main{
-    height: 600px;
+    max-height: 600px;
     background-color: turquoise;
+    color: white;
 }
 footer{
     height: 80px;
@@ -66,6 +73,12 @@ footer{
     border-radius: 5px
 }
 
+#click{
+    text-align: center;
+    margin: 400px ;
+}
+
 footer p{
     font-size: 20px;
 }
+
